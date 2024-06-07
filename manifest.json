@@ -6,5 +6,12 @@
   "action": {
     "default_popup": "yt.html",
     "default_icon": "yt.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/x2yt.js"],
+      "matches": ["https://x.com/*"],
+      "run_at": "document_end"
+    }
+  ]
 }

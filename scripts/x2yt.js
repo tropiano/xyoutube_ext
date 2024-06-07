@@ -1,13 +1,19 @@
-const link = document.querySelectorAll("a");
+function find_links() {
+    const link = document.querySelectorAll("a.css-175oi2r.r-1wbh5a2.r-dnmrzs.r-1ny4l3l.r-1loqt21");
+    console.log(link);
+    console.log("test extension");
 
-if (link) {
-    for (let i = 0; i < link.length; i++) {
-        const user_name = link[i].textContent;  
-        console.log(user_name)
-        const x_link = link[i].getAttribute("href")
-        console.log(x_link)
+    if (link) {
+        for (let i = 0; i < link.length; i++) {
+            const user_name = link[i].textContent;  
+            console.log(user_name)
+            const x_link = link[i].getAttribute("href")
+            console.log(x_link)
+        }
     }
 }
+
+setInterval(find_links, 5000);
 
 // `document.querySelector` may return null if the selector doesn't match anything.
 /*
