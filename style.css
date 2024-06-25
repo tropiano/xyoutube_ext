@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    width: 300px;
+    /* max: 800px */
+    height: 400px;
+    background-color: #14213d;
+    margin-right: 30;
+    margin-left: 30;
+
+    padding: 10;
+}
+
+p {
+    color: #fdf0d5;
+}
+
+h1 {
+    color: #fdf0d5;
+}
+
+h2 {
+    color: #fdf0d5;
+    opacity: 80;
+    font-weight: 600;
+}
+
+h3 {
+    color: #fdf0d5;
+    opacity: 80;
+    font-weight: 600;
+}
+
+a {
+    color: #fdf0d5;
+}

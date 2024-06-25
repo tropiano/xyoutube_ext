@@ -7,6 +7,12 @@
     "default_popup": "yt.html",
     "default_icon": "yt.png"
   },
+  "web_accessible_resources": [
+    {
+      "resources": ["data/*.json"],
+      "matches": ["https://x.com/*"]
+    }
+  ],
   "content_scripts": [
     {
       "js": ["scripts/x2yt.js"],
