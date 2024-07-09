@@ -1,11 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "X to YouTube",
+  "name": "x2yt - X post to YouTube channel in 1 click",
   "description": "Find the YouTube channel of the people you follow on X",
-  "version": "1.0",
+  "version": "0.0.2",
   "action": {
     "default_popup": "yt.html",
     "default_icon": "yt.png"
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
   },
   "web_accessible_resources": [
     {

@@ -44,6 +44,8 @@ function find_links() {
                 //badge.textContent = data[x_link];
                 badge.textContent = " 📺 ";
                 badge.href = "https://www.youtube.com/@"+data[x_link];
+                badge.target = "_blank"
+                badge.rel = "noopener noreferrer"
                 profileEl = link[i].parentNode;
                 profileEl.insertAdjacentElement("afterend", badge);
                 }
